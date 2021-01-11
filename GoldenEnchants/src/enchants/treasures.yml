@@ -16,6 +16,10 @@ settings:
   enchant-trigger-chance: '1.0 * %level%'
   treasures:
     STONE:
-      BONE: 10.0
+      bone:
+        material: BONE
+        chance: 10.0
     DIRT:
-      GLOWSTONE_DUST: 5.0
+      glowstone_dust:
+        material: GLOWSTONE_DUST
+        chance: 5.0
